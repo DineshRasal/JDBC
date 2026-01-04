@@ -34,7 +34,7 @@ public class ImageReadDemo {
 				out.write(barr);
 				out.close();		
 				}
-			System.out.println("Image Read Successful");
+			System.out.println("Image Read Successfully");
 		
 			
 			//STEP 4: EXECUTE QUERY
