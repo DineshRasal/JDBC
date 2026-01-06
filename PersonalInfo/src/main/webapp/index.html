@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>User Info</title>
+</head>
+<style>
+    body {
+        margin: 20;
+        height: 120vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f2f2f2;
+    }
+
+    .Info {
+        background: white;
+        padding: 25px;
+        width: 350px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    .Submits{
+    	color: white;
+    	background-color: Green;
+    	display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:130px;
+    }
+    
+     
+    
+</style>
+<body>
+	
+	<div class="Info">
+		<h3>User Information</h3>
+		
+		<form action="Information" method="get">
+		
+		<label>Username:</label> <input type="text" name="username"  required><br><br>
+		<label>Email:</label> <input type="email" name="email"  required><br><br>
+		<label>Age:</label> <input type="number" name="Age" ><br><br>
+		<label>Gender:</label> <input type="radio" name="Gender" value="Male">Male
+		<input type="radio" name="Gender" value="Female">Female<br><br>
+		
+		<label>Date-Of-Birth:</label> <input type="date" name="DOB"><br><br>
+		<label>Skills:</label> <select name="skills">
+			<option>Default</option>
+			<option>Full Stack Java</option>
+			<option>Data Anylatics</option>
+			<option>Python Developer</option>
+			<option>AI-Ml</option>
+		</select>
+		<br>
+		<textarea name="address" rows="4" cols="42" placeholder="Address"></textarea><br><br>
+		
+		<label>Qualification:</label> <select name="qualification">
+			<option>10th</option>
+			<option>Diploma</option>
+			<option>BE/BTech</option>
+			<option>ME/MTech</option>
+			
+		</select><br><br>
+		<label>College:</label><input type="text" name="College"  ><br><br>
+		<label>University:</label><input type="text" name="University"  ><br><br>
+		<label>PassingYear:</label><input type="number" name="PassingYear"  ><br><br>
+			
+			
+			<input class="Submits" type="submit" value="Submit" >
+		
+		
+		
+		
+		
+		</form>
+	
+	</div>
+</body>
+</html>
