@@ -30,7 +30,7 @@ public class Information extends HttpServlet {
 		// TODO Auto-generated method stub
 		response.setContentType("text/html");
 		PrintWriter pw=response.getWriter();
-		 String username = request.getParameter("username");
+		    String username = request.getParameter("username");
 	        String email = request.getParameter("email");
 	        String age = request.getParameter("Age");
 	        String gender = request.getParameter("Gender");
@@ -42,7 +42,6 @@ public class Information extends HttpServlet {
 	        String university = request.getParameter("University");
 	        String passingYear = request.getParameter("PassingYear");
 	       
-
 	        pw.println("<h2>User Information</h2>");
 	        pw.println("Username: " + username + "<br>");
 	        pw.println("Email: " + email + "<br>");
