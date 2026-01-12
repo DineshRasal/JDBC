@@ -1,6 +1,7 @@
 package com;
 
 import jakarta.servlet.ServletConfig;
+import jakarta.servlet.ServletContext;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -34,11 +35,13 @@ public class ServletConfigClass extends HttpServlet {
 		ServletConfig config=getServletConfig();
 		String n=config.getInitParameter("name");
 		String s=config.getInitParameter("sirname");
-
 		
-	
-		pw.print("Your init parameter is "+n+" "+s);
+		pw.println("Your init parameter of Config is "+n+" "+s);
 		
+		ServletContext contex=getServletContext();
+		String p=contex.getInitParameter("Project");
+		
+		pw.println("Your init parameter Of context is "+p);
 		pw.close();
 	}
 

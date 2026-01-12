@@ -26,6 +26,11 @@
   </init-param>
   </servlet>
   
+    <context-param>
+  <param-name>Project</param-name>
+  <param-value>genral</param-value>
+  </context-param>
+  
   <servlet-mapping>
   <servlet-name>ServletConfigClass</servlet-name>
   <url-pattern>/ServletConfigClass</url-pattern>
@@ -46,7 +51,14 @@
   <param-value>File</param-value>
   </init-param>
   
+ 
+  
   </servlet>
+  
+   <context-param>
+  <param-name>Project</param-name>
+  <param-value>genral</param-value>
+  </context-param>
   
   <servlet-mapping>
   <servlet-name>Servlettwo</servlet-name>
