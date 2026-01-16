@@ -94,4 +94,47 @@ public class EmpDao {
 		}
 		return status;
 	}
+	
+	public static Emp getElementById(int id) {
+		Emp e=new Emp();
+		
+		try {
+			
+			Connection con=EmpDao.getConnection();
+			PreparedStatement ps=con.prepareStatement("Select * from usertable Where id=? ");
+			ps.setInt(1, id);
+			ResultSet rs=ps.executeQuery();
+			
+			if(rs.next()) {
+				e.setId(rs.getInt(1));
+				e.setName(rs.getString(2));
+				e.setPassword(rs.getString(3));
+				e.setEmail(rs.getString(4));
+				e.setCountry(rs.getString(5));
+				
+			}
+			con.close();
+			
+		}catch (Exception e1) {
+			System.out.print(e1);// TODO: handle exception
+		}
+		return e;
+	}
+	
+	public static int delete(int id) {
+		
+		int status=0;
+		
+		try {
+			Connection con=EmpDao.getConnection();
+			PreparedStatement ps=con.prepareStatement("delete from usertable where id=?");
+			ps.setInt(1,id);
+			status=ps.executeUpdate();
+			con.close();
+			
+		}catch (Exception e1) {
+			System.out.print(e1);
+		}
+		return status;
+	}
 }
