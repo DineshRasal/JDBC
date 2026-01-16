@@ -57,7 +57,7 @@ public class EmpDao {
 			while(rs.next()) {
 				
 				Emp e=new Emp();
-				e.setId(rs.getInt(1));
+			e.setId(rs.getInt(1));
 			e.setName(rs.getString(2));
 			e.setPassword(rs.getString(3));
 			e.setEmail(rs.getString(4));
@@ -73,5 +73,25 @@ public class EmpDao {
 			System.out.println(e2);
 		}
 		return list;
+	}
+	public static int update(Emp e) {
+		int status=0;
+		try {
+			
+			Connection con=EmpDao.getConnection();
+			PreparedStatement ps=con.prepareStatement("update usertable set name=? ,password=? ,email=? ,country=? where id=?");
+			ps.setString(1,e.getName());
+			ps.setString(2,e.getPassword());
+			ps.setString(3, e.getEmail());
+			ps.setString(4, e.getCountry());
+			ps.setInt(5,e.getId());
+			
+			status=ps.executeUpdate();
+			
+			con.close();
+		}catch (Exception e1) {
+			System.out.println(e1);
+		}
+		return status;
 	}
 }
