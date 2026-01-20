@@ -10,6 +10,10 @@
 
 	<% String uname=(String) session.getAttribute("user");
 	out.print("user name is"+uname);
+	
+	String uname1=(String)pageContext.getAttribute("user1",PageContext.SESSION_SCOPE);
+	
+	out.print("User1 is:+uname1");
 	%>
 </body>
 </html>
