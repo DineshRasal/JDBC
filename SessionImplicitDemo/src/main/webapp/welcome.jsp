@@ -13,7 +13,6 @@
 	
 	String uname1=(String)pageContext.getAttribute("user1",PageContext.SESSION_SCOPE);
 	
-	out.print("User1 is:+uname1");
-	%>
+	out.print("User1 is:+uname1");	%>
 </body>
 </html>
