@@ -33,4 +33,6 @@
     <fullyQualifiedTypeName name="org.hibernate.Session"/>
     <fullyQualifiedTypeName name="test.Person"/>
     <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="test.Employee"/>
+    <fullyQualifiedTypeName name="test.contract_emp"/>
 </qualifiedTypeNameHistroy>
