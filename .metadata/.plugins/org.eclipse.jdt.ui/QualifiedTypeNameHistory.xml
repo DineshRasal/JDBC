@@ -35,4 +35,6 @@
     <fullyQualifiedTypeName name="javax.persistence.Id"/>
     <fullyQualifiedTypeName name="test.Employee"/>
     <fullyQualifiedTypeName name="test.contract_emp"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="test.Question"/>
 </qualifiedTypeNameHistroy>
