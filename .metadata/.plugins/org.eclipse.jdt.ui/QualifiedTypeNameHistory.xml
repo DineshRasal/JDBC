@@ -37,4 +37,9 @@
     <fullyQualifiedTypeName name="test.contract_emp"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="test.Question"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="test.CreditCardPayment"/>
+    <fullyQualifiedTypeName name="test.PayPalPayment"/>
+    <fullyQualifiedTypeName name="test.ShoppingCard"/>
+    <fullyQualifiedTypeName name="test.PaymentStratergy"/>
 </qualifiedTypeNameHistroy>
