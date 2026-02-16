@@ -42,4 +42,9 @@
     <fullyQualifiedTypeName name="test.PayPalPayment"/>
     <fullyQualifiedTypeName name="test.ShoppingCard"/>
     <fullyQualifiedTypeName name="test.PaymentStratergy"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="com.model.Question"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.model.Employee"/>
 </qualifiedTypeNameHistroy>

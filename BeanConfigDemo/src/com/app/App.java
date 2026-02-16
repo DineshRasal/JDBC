@@ -3,6 +3,8 @@ package com.app;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import com.model.User;
+
 public class App {
 
 	public static void main(String[] args) {
