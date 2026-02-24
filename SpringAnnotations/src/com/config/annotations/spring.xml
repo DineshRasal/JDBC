@@ -13,5 +13,14 @@
 
 	<context:component-scan
 		base-package="com.config.annotations" />
-
+	
+	<util:list list-class="java.util.LinkedList" id="topics">
+		<value>java</value>
+		<value>Python</value>
+		<value>MongoDB</value>
+		<value>Andriod</value>
+		<value>Cloud</value>
+		<value>DA</value>
+	
+	</util:list>
 </beans>
