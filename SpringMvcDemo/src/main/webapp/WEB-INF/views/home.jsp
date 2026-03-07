@@ -8,5 +8,13 @@
 </head>
 <body>
 	<h1>Welcome to spring mvc application</h1>
+	
+	<% 
+	String s=(String)request.getAttribute("Name");
+	Integer i=(Integer)request.getAttribute("id");
+	Integer sal=(Integer)request.getAttribute("Salary");
+	
+	out.print("Name: "+s+" Id: "+i+" Salary: "+sal);
+	%>
 </body>
 </html>
