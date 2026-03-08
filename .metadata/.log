@@ -7040,3 +7040,1055 @@ org.eclipse.swt.SWTException: Graphic is disposed
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SESSION 2026-03-08 12:09:44.957 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-03-08 12:09:48.674
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-03-08 12:09:50.182
+!MESSAGE Logback config file: C:\CodingQuestions\JDBC\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-03-08 12:10:01.659
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Rushi'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 12:10:03.155
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-03-08 12:14:49.452
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-03-08 12:14:49.454
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-03-08 12:14:49.457
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-03-08 12:14:49.457
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-03-08 12:14:49.466
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-03-08 12:14:49.468
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 12:14:57.595
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:15:22.284
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:15:22.298
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:15:41.564
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:15:41.594
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:16:05.469
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:16:05.472
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:22:13.892
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:22:13.894
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:30:15.842
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:30:15.845
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 12:32:14.319
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 12:32:14.824
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:32:21.311
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:32:21.314
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:33:29.520
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:33:29.522
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:34:12.959
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:34:12.961
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:40:45.389
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:40:45.392
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 12:40:47.803
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 12:40:48.314
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 12:40:53.433
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 12:40:53.942
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:41:07.809
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:41:07.814
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:46:29.595
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:46:29.601
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:48:00.119
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:48:00.139
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 12:48:18.455
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:50:42.971
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:50:42.980
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:51:29.940
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:51:29.950
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:51:31.504
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:51:31.513
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:55:10.265
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:55:10.290
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:55:26.191
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-08 12:55:26.226
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-03-08 13:06:32.433
+!MESSAGE ExecutionException occurred during shutdown of EndpointProxy for org.eclipse.lsp4j.jsonrpc.RemoteEndpoint@23bcdec0
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$10(LanguageServerWrapper.java:550)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1491)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2073)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2035)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:314)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:171)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at jdk.proxy17/jdk.proxy17.$Proxy58.shutdown(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$10(LanguageServerWrapper.java:548)
+	... 7 more
+Caused by: java.io.IOException: The pipe is being closed
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:367)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125)
+	at java.base/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:252)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 12 more
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-03-08 13:06:32.438
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-03-08 13:06:32.439
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-03-08 13:06:32.440
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-03-08 13:06:32.441
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-03-08 13:06:32.444
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-03-08 13:06:32.448
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-03-08 13:07:26.062
+!MESSAGE Could not get hover region due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:149)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:225)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-03-08 13:10:07.356
+!MESSAGE Could not get hover region due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:149)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:225)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-03-08 13:10:08.360
+!MESSAGE Could not get hover information due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfo(LSPTextHover.java:73)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverInfo2(CompositeTextHover.java:60)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 13:26:01.477
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 13:26:01.982
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 13:26:10.199
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 13:26:10.707
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 13:26:26.033
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 13:26:26.544
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 13:26:33.320
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 13:26:33.822
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 13:26:36.527
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 13:26:37.035
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2026-03-08 13:27:24.612
+!MESSAGE Could not download javadoc for antlr:antlr:2.7.7
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:jar:javadoc:2.7.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing antlr:antlr:jar:javadoc:2.7.7
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2026-03-08 13:27:24.630
+!MESSAGE Could not resolve artifact antlr:antlr:jar:javadoc:2.7.7
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2026-03-08 13:27:24.630
+!MESSAGE Missing antlr:antlr:jar:javadoc:2.7.7
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 13:47:02.903
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 13:47:03.414
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 13:47:08.945
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 13:47:08.952
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 13:48:59.812
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 13:49:00.322
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 13:51:30.967
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 13:56:40.761
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 13:56:41.269
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 14:01:23.874
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 14:12:19.689
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 14:12:20.199
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 14:12:24.023
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 14:12:24.528
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 14:12:26.850
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 14:12:27.361
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 14:12:30.471
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 14:12:30.979
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 14:12:34.118
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 14:12:34.127
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 14:12:37.176
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 14:12:37.685
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 14:12:40.345
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 14:12:40.360
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 14:12:54.073
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 14:12:54.584
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 14:17:47.252
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-03-08 14:18:37.866
+!MESSAGE Failed to index C:/Users/Rushi/Downloads/Spring Jars/commons-logging-1.2.jar.rar
+!STACK 0
+java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1695)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1703)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1541)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:194)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:161)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:541)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
