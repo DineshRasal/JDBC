@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Insert title here Data</title>
 </head>
 <body>
 	<form action="saveStudent" method="post>
@@ -13,6 +13,6 @@
 	
 	<input type="submit" value="save">
 	</form>
-	<h1></body>
+	<
 </body>
 </html>
